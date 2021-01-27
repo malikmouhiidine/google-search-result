@@ -100,6 +100,9 @@ nav svg {
 }
 
 @media all and (max-width: 650px) {
+    .nav-left .search-bar input {
+        width: 19.7em;
+    }
     nav {
         flex-direction: column;
         gap: 1.2em;
@@ -189,7 +192,7 @@ nav svg {
 /* everything about the hall container !start */
 
 .main-container {
-    width: 98%;
+    width: 99%;
     max-width: 750px;
 }
 
