@@ -126,8 +126,10 @@ nav svg {
 
 /* everything about main nav !start */
 
-.nav-container {
-    text-align: center;
+@media all and (max-width: 849px) {
+    .nav-container {
+        text-align: center;
+    }
 }
 
 .nav-container div {
@@ -182,6 +184,23 @@ nav svg {
 
 
 /* everything about main nav !end */
+
+
+/* everything about the hall container !start */
+
+.main-container {
+    width: 98%;
+    max-width: 750px;
+}
+
+@media all and (min-width: 850px) {
+    .main-container {
+        margin-left: 11.2em;
+    }
+}
+
+
+/* everything about the hall container !end */
 
 
 /* everything about main !end  */
