@@ -196,7 +196,8 @@ nav svg {
 /* everything about the hall container !start */
 
 .main-container {
-    width: 99%;
+    width: 97%;
+    margin: auto;
     max-width: 750px;
 }
 
