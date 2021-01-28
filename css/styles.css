@@ -193,7 +193,7 @@ nav svg {
 /* everything about main nav !end */
 
 
-/* everything about the hall container !start */
+/* everything about the big container !start */
 
 .main-container {
     width: 97%;
@@ -208,7 +208,52 @@ nav svg {
 }
 
 
-/* everything about the hall container !end */
+/* everything about the big container !end */
+
+
+/* everything about the main content !start */
+
+
+/* everything about the result items !start */
+
+cite {
+    color: #202124;
+    font-style: normal;
+    font-weight: lighter;
+}
+
+h3 {
+    font-size: 1.5em;
+    font-weight: normal;
+    margin-top: 0em;
+    margin-bottom: 0em;
+}
+
+h3 a,
+.result-item p a {
+    color: #1A0DAB;
+    text-decoration: none;
+}
+
+.result-item p {
+    color: #4D5156;
+    margin-top: 0.1em;
+    margin-bottom: 0.1em;
+}
+
+.result-item p a {
+    font-size: 0.9em;
+}
+
+.result-item {
+    margin: 1em auto;
+}
+
+
+/* everything about the result items !end */
+
+
+/* everything about the main content !end */
 
 
 /* everything about main !end  */
