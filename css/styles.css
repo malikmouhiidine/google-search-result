@@ -299,6 +299,29 @@ h3 a,
 /* everything about the people also ask table(or section) !end */
 
 
+/* everything about the next pages section !start  */
+
+.next-pages-container table {
+    margin: auto;
+    color: #4285F4;
+}
+
+
+/* just to not underline the space character &nbsp; */
+
+.next-pages-container table td:not(:first-child):hover,
+.next-pages-container table .Next:hover {
+    text-decoration: underline;
+}
+
+.next-pages-container table .Next {
+    float: right;
+}
+
+
+/* everything about the next pages section !end */
+
+
 /* everything about the main content !end */
 
 
